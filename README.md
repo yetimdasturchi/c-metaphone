@@ -7,7 +7,7 @@ Metaphone phonetic algorithm in c language
 
 int main( int argc, char *argv[] ) {
 	if ( argc < 2 ) {
-		printf("Using: %s \"salom\"\n", argv[0]);	
+		printf("Using: %s \"something\"\n", argv[0]);	
 		return 1;
 	}
 
@@ -22,7 +22,7 @@ int main( int argc, char *argv[] ) {
 Compiling and running:
 
 ```bash
-gcc -o run main.c metaphone.c && ./run "salom"
+gcc -o run main.c metaphone.c && ./run "something"
 ```
 
 Result:
